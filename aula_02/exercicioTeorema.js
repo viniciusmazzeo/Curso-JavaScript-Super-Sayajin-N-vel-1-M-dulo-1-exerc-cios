@@ -7,7 +7,7 @@ const elevacao = pow( 2 );
 
 const teoremaDePitagoras = ( b, c ) => {
     
-    let a = add(elevacao( b ))( elevacao( c ))
+    const a = add(elevacao( b ))( elevacao( c ))
 
     return squareRoot( a );
 }
